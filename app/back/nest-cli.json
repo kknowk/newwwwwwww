@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "compilerOptions": {
+    "deleteOutDir": true,
+    "assets": [
+      "front/**/*.html",
+      "front/**/*.css",
+      "front/**/*.png",
+      "front/**/*.jpg",
+      "front/**/*.jpeg"
+    ],
+    "watchAssets": true
+  },
+  "language": "ts"
+}
